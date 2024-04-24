@@ -4,29 +4,42 @@
 #include <string>
 using namespace std;
 
-bool isPalindrome(const string& str) {
-    int left = 0;
-    int right = str.length() - 1;
+class Palindrome
+{
+public:
+    bool isPalindrome(const string &str)
+    {
+        int left = 0;
+        int right = str.length() - 1;
 
-    while (left < right) {
-        if (str[left] != str[right]) {
-            return false;
+        while (left < right)
+        {
+            if (str[left] != str[right])
+            {
+                return false;
+            }
+            ++left;
+            --right;
         }
-        ++left;
-        --right;
+
+        return true;
     }
+};
 
-    return true;
-}
-
-int main() {
+int main()
+{
     string input;
     cout << "Enter a string: ";
     cin >> input;
 
-    if (isPalindrome(input)) {
+    Palindrome obj;
+
+    if (obj.isPalindrome(input))
+    {
         cout << "Palindrome" << endl;
-    } else {
+    }
+    else
+    {
         cout << "Not Palindrome" << endl;
     }
 
