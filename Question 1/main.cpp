@@ -1,3 +1,5 @@
+// 1. WAP to print the sum and product of digits of an integer.
+
 #include <iostream>
 using namespace std;
 
