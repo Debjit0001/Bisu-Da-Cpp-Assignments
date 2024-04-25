@@ -1,0 +1,89 @@
+Enter a string: abc
+
+Menu:
+1. Show address of each character in the string
+2. Concatenate two strings
+3. Compare two strings
+4. Calculate length of the string
+5. Convert string to lowercase
+6. Convert string to uppercase
+7. Count vowels in the string
+8. Reverse the string
+9. Re-enter the string
+10. Exit
+Enter your choice: 1
+Address of each character in the string:
+Character: a Address: 0x7ffe4d555f20
+Character: b Address: 0x7ffe4d555f21
+Character: c Address: 0x7ffe4d555f22
+
+Menu:
+1. Show address of each character in the string
+2. Concatenate two strings
+3. Compare two strings
+4. Calculate length of the string
+5. Convert string to lowercase
+6. Convert string to uppercase
+7. Count vowels in the string
+8. Reverse the string
+9. Re-enter the string
+10. Exit
+Enter your choice: 3
+Comparison result: Enter another string: aba
+2
+
+Menu:
+1. Show address of each character in the string
+2. Concatenate two strings
+3. Compare two strings
+4. Calculate length of the string
+5. Convert string to lowercase
+6. Convert string to uppercase
+7. Count vowels in the string
+8. Reverse the string
+9. Re-enter the string
+10. Exit
+Enter your choice: 4
+Length of the string: 3
+
+Menu:
+1. Show address of each character in the string
+2. Concatenate two strings
+3. Compare two strings
+4. Calculate length of the string
+5. Convert string to lowercase
+6. Convert string to uppercase
+7. Count vowels in the string
+8. Reverse the string
+9. Re-enter the string
+10. Exit
+Enter your choice: 6
+Converted to uppercase: ABC
+
+Menu:
+1. Show address of each character in the string
+2. Concatenate two strings
+3. Compare two strings
+4. Calculate length of the string
+5. Convert string to lowercase
+6. Convert string to uppercase
+7. Count vowels in the string
+8. Reverse the string
+9. Re-enter the string
+10. Exit
+Enter your choice: 8
+Reversed string: CBA
+
+Menu:
+1. Show address of each character in the string
+2. Concatenate two strings
+3. Compare two strings
+4. Calculate length of the string
+5. Convert string to lowercase
+6. Convert string to uppercase
+7. Count vowels in the string
+8. Reverse the string
+9. Re-enter the string
+10. Exit
+Enter your choice: 10
+Exiting...
